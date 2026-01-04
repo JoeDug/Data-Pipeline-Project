@@ -1,0 +1,17 @@
+CREATE OR REPLACE TABLE fact_encounters AS
+SELECT
+    id AS encounter_id,
+    START,
+    STOP,
+    PATIENT,
+    ORGANIZATION,
+    PAYER,
+    ENCOUNTERCLASS,
+    CODE,
+    DESCRIPTION,
+    BASE_ENCOUNTER_COST,
+    TOTAL_CLAIM_COST,
+    PAYER_COVERAGE,
+    REASONCODE,
+    REASONDESCRIPTION
+FROM staging_encounters;
