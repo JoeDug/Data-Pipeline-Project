@@ -1,3 +1,4 @@
+--I have made a change
 CREATE OR REPLACE TABLE dim_patients AS
 SELECT
     id AS patient_id,
