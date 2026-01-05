@@ -1,4 +1,4 @@
---I have made a change
+--I have made a change, another very small change
 CREATE OR REPLACE TABLE dim_patients AS
 SELECT
     id AS patient_id,
